@@ -1,0 +1,147 @@
+.profile-container{
+    width: 100%;
+    min-height: 3em;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    padding: 20px;
+    margin-top: 60px;
+   
+
+
+}
+
+.profile-container h4{
+    color: #025bee;
+    font-weight: bold;
+    font-size: 1.5em;
+   
+
+
+}
+
+.create-profile{
+    width: 100%;
+    min-height: 400px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    padding: 20px;
+    margin-top: 50px;
+    
+
+}
+
+
+.create-profile .profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 5px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+
+.create-profile .profile-img img{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+   
+}
+
+
+.custom-fields{
+
+    width: 100%;
+    min-height: 300px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.profilefield-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+   
+}
+
+.profilefield-inputs .fields{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   width: 40%;
+   
+}
+
+.profilefield-inputs .fields input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: 1px solid lightgray;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    border-radius: 3px;
+
+
+
+    
+ }
+
+ .profilefield-inputs .fields textarea{
+    width: 500px;
+    padding: 10px;
+    border: none;
+    outline: 1px solid lightgray;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    border-radius: 3px;
+
+
+
+    
+ }
+
+ #profile-btn{
+    width: 150px;
+    padding: 10px;
+    background-color: #025bee;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+
+ }
+
+ #submit-desc{
+    width: 100px;
+    padding: 10px;
+    background-color: #025bee;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+
+ }
+
+
+ @media screen and (max-width: 768px) {
+
+	
+}
+
+
+
+
+

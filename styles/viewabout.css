@@ -1,0 +1,46 @@
+.contentlist-heading{
+    width: 100%;
+    min-height: 3em;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.contentlist-heading h4{
+    color: #025bee;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+
+.contentlist-container{
+    width: 100%;
+    min-height: 500px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    margin-top: 50px;
+    padding: 20px;
+    
+    
+
+}
+
+.contentlist-container h4{
+    color: #025bee;
+    font-weight: 600;
+    font-size: 1em;
+
+}
+
+
+@media screen and (max-width: 768px) {
+	.contentlist-container{
+        overflow-x: scroll;
+       
+        
+        
+    
+    }
+}

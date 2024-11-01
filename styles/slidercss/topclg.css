@@ -1,0 +1,301 @@
+
+/*=============== BASE ===============*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+   
+  a {
+    text-decoration: none;
+  }
+  
+  
+  /*=============== CARD ===============*/
+  
+  .card__container {
+    padding-block: 2rem;
+  }
+  
+  
+  .card__article {
+    width: 300px; /* Remove after adding swiper js */
+    border-radius: 1.25rem;
+    overflow: hidden;
+  }
+  
+
+/* top college list */
+
+.topcollege_section {
+  
+    min-height: 400px;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+   
+  
+  }
+  
+  .topcollege_section  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+      padding-left: 7%;
+  
+  }
+  
+  .topcollege_section .topcollege_seprator {
+    width: 90%;
+    height: 2px;
+    background-color: #050038;
+    margin-left: 7%;
+  
+  }
+  
+  .topcollege_section .topcollege_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+  
+  }
+  
+  .topcollege_section .topcollege_list .topcollege_item {
+    
+    width: 300px; /* Remove after adding swiper js */
+    border-radius: 1.25rem;
+    overflow: hidden;
+    min-height: 300px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  
+  }
+  
+  .topcollege_section  .topcollege_list .topcollege_item .topcollege_img {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    cursor: pointer;
+  
+  
+  }
+  
+  
+  .topcollege_section .topcollege_list .topcollege_item .topcollege_img img {
+    width: 100%;
+    height: 100%;
+  
+  
+  }
+  
+  
+  .topcollege_section .topcollege_list .topcollege_item .topcollege_img .topcollege_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  
+  
+  }
+  
+  .vit_logo {
+    width: 50px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+  }
+  
+  .vit_logo img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .vit_text {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+  
+  }
+  
+  .vit_text h4 {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .topcollege_content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .topcollege_content .top_details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+  
+  }
+  
+  #top_details{
+    padding: 10px;
+  
+  }
+  
+  
+  .topcollege_content .top_details .top_fee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+  
+  }
+  
+  .topcollege_content .top_details .top_fee h5{
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    
+  
+  }
+  
+  .top_rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .top_rating p {
+    font-weight: bold;
+    cursor: pointer;
+  
+  }
+  
+  #rating_icon {
+    width: 20px;
+    height: 20px;
+  
+  
+  }
+  
+  #rating_icon img {
+    width: 100%;
+    height: 100%;
+  
+  
+  }
+  
+  
+  
+  
+
+/* Swiper class */
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  font-size: 3rem;
+  color: var(--second-color);
+  display: none;
+  background-color:whitesmoke;
+  border-radius: 50%;
+}
+
+
+.swiper-button-next :hover{
+  box-shadow: none;
+  /* border-radius: 50%; */
+}
+
+.swiper-button-prev :hover{
+  box-shadow:none;
+  /* border-radius: 50%; */
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: hsl(212, 32%, 40%);
+  opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--second-color);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 320px) {
+  .college_details {
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .college_list  {
+    margin-inline: 3rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: block;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .card__container {
+    max-width: 1120px;
+  }
+
+  .swiper-button-prev {
+    left: -1rem;
+  }
+  .swiper-button-next {
+    right: -1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.14.1/dist/sweetalert2.min.css
+" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.css">
+
+
+
+	<link rel="stylesheet" href="././styles/admin.css">
+	<link rel="stylesheet" href="././styles/gallery.css">
+	<link rel="stylesheet" href="././styles/editgallery.css">
+	<title>AdminSite</title>
+</head>
+
+<body>
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="./adminpannel.html" class="brand">
+			<div style="width: 50px; height: 50px;" class="brnad-img"><img style="width: 100%; height: 100%;"
+					src="././assests/logoimg.jpeg" alt=""></div>
+			College Bridge
+		</a>
+		<ul class="side-menu">
+			<li><a href="#" class="active"><i class='bx bxs-dashboard icon'></i> Dashboard</a></li>
+			<li class="divider" data-text="main">Main</li>
+			<li>
+				<a href="./about.html"><i class="fa-solid fa-address-card icon"></i> About <i
+						class='bx bx-chevron-right icon-right'></i></a>
+				<ul class="side-dropdown">
+					<li><a href="./createabout.html">Create</a></li>
+					<li><a href="./viewabout.html">View</a></li>
+
+
+				</ul>
+			</li>
+			<li>
+				<a href="#"><i class="fa-solid fa-image icon"></i> Gallery <i
+						class='bx bx-chevron-right icon-right'></i></a>
+				<ul class="side-dropdown">
+					<li><a href="./gallery.html">Create</a></li>
+					<li><a href="./viewgallery.html">View</a></li>
+					<li><a href="#">Edit</a></li>
+
+				</ul>
+			</li>
+			<li>
+				<a href="#"><i class="fa-solid fa-building icon"></i> Placement <i
+						class='bx bx-chevron-right icon-right'></i></a>
+				<ul class="side-dropdown">
+					<li><a href="./placements.html">Create</a></li>
+					<li><a href="./viewplacements.html">View</a></li>
+
+
+				</ul>
+			</li>
+
+
+			<li>
+				<a href="#"><i class="fa-solid fa-award icon"></i>Achivements <i
+						class='bx bx-chevron-right icon-right'></i></a>
+				<ul class="side-dropdown">
+					<li><a href="./achivement.html">Create</a></li>
+					<li><a href="./viewachivments.html">View</a></li>
+
+
+				</ul>
+			</li>
+			<li class="divider" data-text="account">Account</li>
+			<li>
+				<a href="./profile.html"><i class='bx bxs-user-circle icon'></i>Profile<i
+						class='bx bx-chevron-right icon-right'></i></a>
+				<ul class="side-dropdown">
+					<li><a href="./viewprofile.html">View</a></li>
+
+
+				</ul>
+			</li>
+			<li>
+				<a href="./login.html"><i class="fa-solid fa-right-from-bracket icon"></i>Log out</a>
+				<!-- <ul class="side-dropdown">
+					<li><a href="#">View</a></li>
+					<li><a href="#">Edit</a></li>
+					
+				</ul> -->
+			</li>
+		</ul>
+		<!-- <div class="ads">
+			<div class="wrapper">
+				<a href="#" class="btn-upgrade">Upgrade</a>
+				<p>Become a <span>PRO</span> member and enjoy <span>All Features</span></p>
+			</div>
+		</div> -->
+	</section>
+	<!-- SIDEBAR -->
+
+	<!-- NAVBAR -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu toggle-sidebar'></i>
+			<form action="#">
+				<div class="form-group">
+					<input type="text" placeholder="Search...">
+					<i class='bx bx-search icon'></i>
+				</div>
+			</form>
+			<a href="#" class="nav-link">
+				<i class='bx bxs-bell icon'></i>
+				<span class="badge">5</span>
+			</a>
+			<a href="#" class="nav-link">
+				<i class='bx bxs-message-square-dots icon'></i>
+				<span class="badge">8</span>
+			</a>
+			<span class="divider"></span>
+			<div class="profile">
+				<img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+					alt="">
+				<ul class="profile-link">
+					<li><a href="./viewprofile.html"><i class='bx bxs-user-circle icon'></i> Profile</a></li>
+					<li><a href="./profileedit.html"><i class='bx bxs-cog'></i> Settings</a></li>
+					<li><a href="./login.html"><i class='bx bxs-log-out-circle'></i> Logout</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<h1 class="title">Gallery</h1>
+			<ul class="breadcrumbs">
+				<li><a href="#">Home</a></li>
+				<li class="divider">/</li>
+				<li><a href="#" class="active">Edit</a></li>
+			</ul>
+
+
+			<div class="browse-file-container">
+
+				<div class="choose-container">
+
+					<h1>Edit Your Gallery</h1>
+					<!-- <div style="display: flex; gap: 20px;">
+						<label for="file-input" id="file-input">
+							<i class="fa-solid fa-plus"></i>
+							&nbsp;Add New
+						</label>
+						<label id="delete-input" class="deleteactive">Remove</label>
+
+					</div> -->
+
+
+
+
+				</div>
+
+			</div>
+
+
+			<div class="upload-container">
+
+				<form action="" style=" min-height: 250px; position: relative;">
+
+					<div class="upload-area" id="uploadArea">
+						<i class="fas fa-cloud-upload-alt"></i>
+						<p>Select your file PDF, jpeg , png </p>
+						
+	
+							<input type="file" id="fileInput" multiple>
+	
+							
+	
+					
+						
+					</div>
+
+					<button type="submit" style="padding: 8px; background-color:#025bee; border: none; display: flex; justify-content: center; align-items: center; font-size: 14px; color: white; font-weight: 600; cursor: pointer; margin-bottom: 10px; border-radius: 5px; position: absolute; bottom: 0; ">Submit</button>
+
+				</form>
+				
+				<div class="file-list" id="fileList"></div>
+			</div>
+			<div class="notification" id="notification"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- NAVBAR -->
+
+
+	<script src="././js/admin.js"></script>
+	<script src="././js/editgallery.js"></script>
+	<script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.14.1/dist/sweetalert2.all.min.js
+"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/compressorjs/1.0.7/compressor.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/21.6.5/i18next.min.js"></script>
+
+</body>
+
+</html>

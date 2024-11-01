@@ -1,0 +1,167 @@
+.aboutcontent-heading{
+    width: 100%;
+    min-height: 3em;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    padding: 20px;
+    margin-top: 50px;
+
+
+
+}
+
+.aboutcontent-heading h4{
+    color: #025bee;
+    font-weight: bold;
+    font-size: 1.5em;
+
+    
+    
+
+}
+
+.about-title{
+    width: 100%;
+    min-height: 400px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+#title-input{
+    width:  60%;
+    padding: 10px;
+    background-color: rgb(240, 239, 239);
+    color: gray;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+
+.textarea{
+
+    width:  90%;
+    padding: 10px;
+    background-color: rgb(240, 239, 239);
+    color: gray;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 10px;
+
+
+}
+
+.custom-fields{
+
+    width: 100%;
+    min-height: 300px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    padding: 20px;
+    margin-top: 50px;
+
+}
+
+.cutsomfield-inputs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cutsomfield-inputs .fields{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   gap: 10px;
+   width: 500px;
+  
+}
+
+.cutsomfield-inputs .fields input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: 1px solid lightgray;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    border-radius: 3px;
+
+
+
+    
+ }
+
+ .cutsomfield-inputs .fields textarea{
+    max-width: 500px;
+    padding: 10px;
+    border: none;
+    outline: 1px solid lightgray;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    border-radius: 3px;
+
+
+
+    
+ }
+
+ #custom-btn{
+    width: 150px;
+    padding: 10px;
+    background-color: #025bee;
+    color: #ffffff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+
+ }
+
+ #submit-desc{
+    width: 100px;
+    padding: 10px;
+    background-color: #025bee;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+    cursor: pointer;
+
+ }
+
+
+ .courses-container{
+    width: 100%;
+    min-height: 500px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
+    padding: 20px;
+    margin-top: 50px;
+
+ }
+
+ .courses-container h4{
+    color: #025bee;
+    font-weight: 800;
+    font-size: 1em;
+ }
+
+ #course-details{
+    width: 100%;
+ }
+
+
+
+ @media screen and (max-width: 768px) {
+
+    
+	
+}

@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--=============== slick-carousel ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./../collegedheko/styles/slidercss/swiper-bundle.min.css">
+    <!--===============slider CSS ===============-->
+    <link rel="stylesheet" href="./../collegedheko/styles/slidercss/styles.css">
+    <link rel="stylesheet" href="./../collegedheko/styles/slidercss/topclg.css">
+  
+    <!--===============MAIN CSS ===============-->
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./styles/slidercss/styles.css">
+
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <img src="././assests/logoimg.jpeg" class="nav_img" alt="">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__toggle-menu"></i>
+                    <i class="ri-close-line nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="./collegeinfo.html" class="nav__link ">About us</a>
+                    </li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Colleges <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-flashlight-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Colleges By Degrees</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">B.Tech College In India</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">M.Tech College In India</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">BCA College In India</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In India</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">B.Arch College In India</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-heart-3-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Colleges By Location</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Haryana</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Delhi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Uttar
+                                                Pardesh</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Mumbai</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Pune</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Cheenai</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Banglore</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Hyderabad</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Chandigarh</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Noida</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Engineering College In Kolkata</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-book-mark-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Popular Colleges</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Sanskriti University</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Parul University</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Amity University</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Gautam Buddha University</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Sardha University</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">Kurukshetra University</a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#" class="dropdown__link">GL Bajaj University</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Chandigarh University</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Lovely Proffesional University
+                                                (LPU)</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-file-paper-2-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Top Colleges</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">IIT Delhi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">IIT kharagpur</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">IIT Delhi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">IP University</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">NIT Delhi</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">NIT Kurukshetra</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Vellore Institute Of Engineering and
+                                                Technology</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Courses <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-code-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Engineering Courses</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Computer Science Engineering</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Civil Engineering </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Mechnical Engineering</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Electrical Engineering</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Electronics and Communication
+                                                Engineering</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Artifical Inteligence</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Robotics</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-pen-nib-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Master Courses</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Masters In Computer Science</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Masters In Civil</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Masters In Electronics</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Masters In Electrical</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Masters In Mechnical</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-apps-2-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Others</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Recent blogs</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Tutorial videos</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Webinar</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+                    <!--=============== DROPDOWN 3 ===============-->
+                    <!-- <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Exams <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-community-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">About us</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">About us</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Support</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Contact us</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <div class="dropdown__icon">
+                                        <i class="ri-shield-line"></i>
+                                    </div>
+
+                                    <span class="dropdown__title">Safety and quality</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Cookie settings</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Privacy Policy</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li> -->
+
+                    <li>
+
+                        <a href="" class="nav__link ">Contact</a>
+
+
+
+                    </li>
+                    <li class="login_link">
+
+                        <a href="./login.html" class="nav__link "  id="login_1">
+                            <!-- <i class="ri-account-circle-fill login_icon"></i> -->
+                            <i class="fa fa-sign-in" aria-hidden="true"></i>
+                            Login</a>
+
+
+
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== MAIN JS ===============-->
+
+    <!-- hero section -->
+    <section class="hero_section">
+        <div class="hero_img">
+            <img src="././assests/heroimage2.jpg" alt="">
+            <div class="hero_overlay">
+                <h1>Find Colleges & Courses</h1>
+
+
+                <a href="./searchbar.html" class="hero_serchbar">
+                    <input type="text" name="searchbar" id="searchbar" placeholder="Search for colleges & courses">
+                    <button class="search_btn">Search</button>
+
+
+                </a>
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- courses section start -->
+
+    <section class="courses_section">
+        <div class="courses_heading">
+            <h1>Explore Courses</h1>
+            <div class="courses_seprator"></div>
+
+            <!-- Service Start -->
+            <div class="container_xxl ">
+                <div class="container_">
+                    <div class="service_list">
+
+                        <div class="service-item text-center ">
+                            <div class="">
+                                <img src="./assests/all couses.png" alt="" style="width: 90px;">
+                                <h3 class="">All Courses </h3>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+
+
+                        <div class="service-item text-center ">
+                            <div class="">
+                                <img src="./assests/eng.png" alt="" style=" width: 90px;; ">
+                                <h3 class="mb-3">Engineering</h3>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+
+
+                        <div class="service-item text-center ">
+                            <div class="">
+                                <img src="./assests/mba.png" alt="" style="width: 90px;">
+                                <h3 class="">MBA</h3>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+
+
+                        <div class="service-item text-center">
+                            <div class="">
+                                <img src="./assests/poly.png" alt="" style="width: 90px;">
+                                <h3 class="">Polytechnic </h3>
+                                <p>Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Service End -->
+
+        </div>
+    </section>
+
+
+    <!-- courses section -->
+
+
+    <div class="containe_box">
+        <div class="courses_list">
+            <div class="courses-item  ">
+                <div class="">
+                    <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2024/03/counter-01.webp"
+                        alt="" style="width: 50px; border-radius: 50%;">
+                    <h3 class="">Engineering</h3>
+                    <h4 class="courses_15">15 Course</h4>
+                    <!-- <button class="btn_courses">Learn More</button> -->
+                </div>
+
+                <div class="engineering_courses ">
+                    <a href="" class="courses_link">IT</a>
+                    <a href="" class="courses_link">Civil Engineering</a>
+                    <a href="" class="courses_link">Mechnical Engineering</a>
+                    <a href="" class="courses_link">Electrical Engineering</a>
+                    <a href="" class="courses_link">Mechnical Engineering</a>
+                    <a href="" class="courses_link">Computer Science Engineering</a>
+                    <a href="" class="courses_link">Electronics & Communication Engineering</a>
+
+                </div>
+                <button class="enroll_coures">Enroll Course </button>
+            </div>
+
+
+            <div class="courses-item  ">
+                <div class="">
+                    <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2024/03/counter-03.webp"
+                        alt="" style="width: 50px; border-radius: 50%;">
+                    <h3 class="">MBA</h3>
+                    <h4 class="courses_15">15 Course</h4>
+                    <!-- <button class="btn_courses">Learn More</button> -->
+
+                    <div class="engineering_courses">
+                        <a href="" class="courses_link">Master's In IT</a>
+                        <a href="" class="courses_link">Master's In Civil </a>
+                        <a href="" class="courses_link">Master's In Mechnical </a>
+                        <a href="" class="courses_link">Masters's In Electrical</a>
+                        <a href="" class="courses_link">Master's In Mechnical</a>
+                        <a href="" class="courses_link">Master's In Computer Science</a>
+                        <a href="" class="courses_link">Master's In Electronics & Communication </a>
+
+                    </div>
+                    <button class="enroll_coures">Enroll Course </button>
+                </div>
+            </div>
+
+
+            <div class="courses-item">
+                <div class="">
+                    <img src="https://rainbowthemes.net/themes/histudy/wp-content/uploads/2024/03/counter-04.webp"
+                        alt="" style="width: 50px; border-radius: 50%;">
+                    <h3 class="">Polytechnic </h3>
+                    <h4 class="courses_15">15 Course</h4>
+                    <!-- <button class="btn_courses">Learn More</button> -->
+
+                    <div class="engineering_courses">
+                        <a href="" class="courses_link">Polytechnic In IT</a>
+                        <a href="" class="courses_link">Polytechnic In Civil</a>
+                        <a href="" class="courses_link">Polytechnic In Mechnical</a>
+                        <a href="" class="courses_link">Polytechnic In Electrical</a>
+                        <a href="" class="courses_link">Polytechnic In Mechnical</a>
+                        <a href="" class="courses_link">Polytechnic In Computer Science</a>
+
+                    </div>
+                    <button class="enroll_coures">Enroll Course </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--courses End -->
+
+
+
+    <!-- service2 video-->
+    <section class="Service-section">
+        <div class="video_section">
+            <div class="btn">
+                <ion-icon name="play"></ion-icon>
+            </div>
+            <div class="clip">
+                <video src="./assests/Sequence 04 RE.mp4 " controls>
+                </video>
+                <b class="close">X</b>
+            </div>
+        </div>
+        <div class="video_text">
+            <h1>We Are Providing The Best Quality Courses and College</h1>
+            <p>Groove’s intuitive shared inbox makes it easy for team members to organize, prioritize anIn this episode
+                of the Smashing Pod we’re talking about Web Platform Baseline.</p>
+
+            <div class="icon">
+                <img src="./assests/learn.gif" alt="" class="learn_icon">
+                <h4>20+ years of experience</h4>
+            </div>
+
+            <div class="icon">
+                <img src="./assests/education_.gif" alt="" class="learn_icon">
+                <h4>Lifetime course update & access</h4>
+            </div>
+
+            <div class="icon">
+                <img src="./assests/e-couser.gif" alt="" class="learn_icon">
+                <h4>High Quality Courses</h4>
+            </div>
+            <button class="btn_video_text"> Start Free Trial</button>
+        </div>
+    </section>
+
+
+
+    <!--service end -->
+
+    <!--college section  -->
+
+
+    <section class="college_section">
+        <h1>Explore Colleges</h1>
+        <div class="college_seprator"></div>
+        <div class="card__container   swiper  ">
+            <div class="card__content   college_list slider1">
+                <div class="swiper-wrapper ">
+                    <article class="card__article swiper-slide college_item">
+                        <div class="college_img">
+                            <img src="././assests/college1.jpg" alt="">
+                            <div class="college_overlay">
+                                Engineering
+                            </div>
+                        </div>
+                        <div class="college_details ">
+                            <a href="">Ranking</a>
+                            <a href="">Cutt Off</a>
+                            <a href="">Fees</a>
+                            <a href="">Application Deadline</a>
+
+                        </div>
+
+                    </article>
+                    <article class="card__article swiper-slide college_item">
+                        <div class="college_img">
+                            <img src="././assests/college1.jpg" alt="">
+                            <div class="college_overlay">
+                                M.Tech
+                            </div>
+                        </div>
+                        <div class="college_details">
+                            <a href="">Ranking</a>
+                            <a href="">Cutt Off</a>
+                            <a href="">Fees</a>
+                            <a href="">Application Deadline</a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="card__article swiper-slide  college_item">
+                        <div class="college_img">
+                            <img src="././assests/heroimage.jpg" alt="">
+                            <div class="college_overlay">
+                                Polytechnic
+                            </div>
+                        </div>
+                        <div class="college_details ">
+                            <a href="">Ranking</a>
+                            <a href="">Cutt Off</a>
+                            <a href="">Fees</a>
+                            <a href="">Application Deadline</a>
+
+                        </div>
+
+                    </article>
+                    <article class="card__article swiper-slide college_item">
+                        <div class=" college_img ">
+                            <img src="././assests/college1.jpg" alt="">
+                            <div class="college_overlay">
+                                Engineering
+                            </div>
+                        </div>
+                        <div class="college_details ">
+                            <a href="">Ranking</a>
+                            <a href="">Cutt Off</a>
+                            <a href="">Fees</a>
+                            <a href="">Application Deadline</a>
+
+                        </div>
+
+                    </article>
+
+                    <article class="card__article swiper-slide college_item">
+                        <div class=" college_img ">
+                            <img src="././assests/college1.jpg" alt="">
+                            <div class="college_overlay">
+                                Engineering
+                            </div>
+                        </div>
+                        <div class="college_details ">
+                            <a href="">Ranking</a>
+                            <a href="">Cutt Off</a>
+                            <a href="">Fees</a>
+                            <a href="">Application Deadline</a>
+
+                        </div>
+
+                    </article>
+                </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next swiper-button-next1">
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev swiper-button-prev1">
+                <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination swiper-pagination1"></div>
+        </div>
+    </section>
+
+
+    <!-- top colleges for b.tech and mtech -->
+    <section class="topcollege_section">
+        <h1>Top Universities/Colleges For M.Tech/B.Tech</h1>
+        <div class="topcollege_seprator"></div>
+        <div class="card__container swiper ">
+            <div class="card__content topcollege_list  slider2">
+                <div class="swiper-wrapper ">
+                    <article class="card__article swiper-slide topcollege_item">
+                        <div class="topcollege_img">
+                            <img src="././assests/vitbanglore.jpeg" alt="">
+                            <div class="topcollege_overlay">
+                                <div class="vit_logo">
+                                    <img src="././assests/vitlogo.png" alt="">
+
+                                </div>
+                                <div class="vit_text">
+                                    <h4>VIT Banglore-Vellore Institute Of Technology</h4>
+                                    <p>Banglore,Karnataka</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="topcollege_content">
+                            <div class="top_details">
+                                <div class="top_fee">
+                                    <h5>M.Tech/PGDM</h5>
+                                    <p>24.50 Lacs Total Fees</p>
+                                </div>
+                                <div class="top_rating">
+                                    <div id="rating_icon">
+                                        <img src="././assests/star.png" alt="">
+                                    </div>
+                                    <p>4.5/5</p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>View All Courses And Fees</h5>
+
+                                </div>
+                                <div class="top_rating">
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>Download Broucher</h5>
+
+                                </div>
+                                <div class="top_rating">
+
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+                    </article>
+
+                    <!-- second college -->
+                    <article class="card__article swiper-slide topcollege_item">
+                        <div class="topcollege_img">
+                            <img src="././assests/chandigarhuniversity.jpg" alt="">
+                            <div class="topcollege_overlay">
+                                <div class="vit_logo">
+                                    <img src="././assests/culogo.png" alt="">
+
+                                </div>
+                                <div class="vit_text">
+                                    <h4>CU Chandigarh-Chandigarh University</h4>
+                                    <p>Chandigarh,Punjab</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="topcollege_content">
+                            <div class="top_details">
+                                <div class="top_fee">
+                                    <h5>M.Tech/PGDM</h5>
+                                    <p>24.50 Lacs Total Fees</p>
+                                </div>
+                                <div class="top_rating">
+                                    <div id="rating_icon">
+                                        <img src="././assests/star.png" alt="">
+                                    </div>
+                                    <p>4.5/5</p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>View All Courses And Fees</h5>
+
+                                </div>
+                                <div class="top_rating">
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>Download Broucher</h5>
+
+                                </div>
+                                <div class="top_rating">
+
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                    </article>
+
+                    <!-- third college item -->
+                    <article class="card__article swiper-slide topcollege_item">
+                        <div class="topcollege_img">
+                            <img src="././assests/ymca.jpg" alt="">
+                            <div class="topcollege_overlay">
+                                <div class="vit_logo">
+                                    <img src="././assests/ymcalogo.png" alt="">
+
+                                </div>
+                                <div class="vit_text">
+                                    <h4>YMCA Faridabad-J.C Bose University Of Science And Technology</h4>
+                                    <p>Faridabad,Haryana</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="topcollege_content">
+                            <div class="top_details">
+                                <div class="top_fee">
+                                    <h5>M.Tech/PGDM</h5>
+                                    <p>24.50 Lacs Total Fees</p>
+                                </div>
+                                <div class="top_rating">
+                                    <div id="rating_icon">
+                                        <img src="././assests/star.png" alt="">
+                                    </div>
+                                    <p>4.5/5</p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>View All Courses And Fees</h5>
+
+                                </div>
+                                <div class="top_rating">
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>Download Broucher</h5>
+
+                                </div>
+                                <div class="top_rating">
+
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+                    </article>
+
+                    <!-- fourth college item -->
+                    <article class="card__article swiper-slide topcollege_item">
+                        <div class="topcollege_img">
+                            <img src="././assests/thapar.jpg" alt="">
+                            <div class="topcollege_overlay">
+                                <div class="vit_logo">
+                                    <img src="././assests/thaparlogo.png" alt="">
+
+                                </div>
+                                <div class="vit_text">
+                                    <h4>Thapar University Patila-Thapar Institute Of Engineering & Technology</h4>
+                                    <p>Patila,Punjab</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="topcollege_content">
+                            <div class="top_details">
+                                <div class="top_fee">
+                                    <h5>M.Tech/PGDM</h5>
+                                    <p>24.50 Lacs Total Fees</p>
+                                </div>
+                                <div class="top_rating">
+                                    <div id="rating_icon">
+                                        <img src="././assests/star.png" alt="">
+                                    </div>
+                                    <p>4.5/5</p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>View All Courses And Fees</h5>
+
+                                </div>
+                                <div class="top_rating">
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>Download Broucher</h5>
+
+                                </div>
+                                <div class="top_rating">
+
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+                    </article>
+
+
+                    <!-- fifith college item -->
+                    <article class="card__article swiper-slide topcollege_item">
+                        <div class="topcollege_img">
+                            <img src="././assests/amity.jpg" alt="">
+                            <div class="topcollege_overlay">
+                                <div class="vit_logo">
+                                    <img src="././assests/amitylogo.png" alt="">
+
+                                </div>
+                                <div class="vit_text">
+                                    <h4>Amity Noida-Amity University</h4>
+                                    <p>Noida,Uttar Pardesh</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="topcollege_content">
+                            <div class="top_details">
+                                <div class="top_fee">
+                                    <h5>M.Tech/PGDM</h5>
+                                    <p>24.50 Lacs Total Fees</p>
+                                </div>
+                                <div class="top_rating">
+                                    <div id="rating_icon">
+                                        <img src="././assests/star.png" alt="">
+                                    </div>
+                                    <p>4.5/5</p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>View All Courses And Fees</h5>
+
+                                </div>
+                                <div class="top_rating">
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>Download Broucher</h5>
+
+                                </div>
+                                <div class="top_rating">
+
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+                </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next swiper-button-next2">
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev swiper-button-prev2">
+                <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination swiper-pagination2"></div>
+        </div>
+    </section>
+
+
+    <!-- top colleges second slider -->
+    <section class="topcollege_section">
+        <div class="card__container swiper">
+            <div class="card__content topcollege_list  slider3">
+                <div class="swiper-wrapper ">
+                    <!-- sixth college item -->
+                    <article class="card__article swiper-slide topcollege_item">
+
+                        <div class="topcollege_img">
+                            <img src="././assests/manipal.jpeg" alt="">
+                            <div class="topcollege_overlay">
+                                <div class="vit_logo">
+                                    <img src="././assests/manipalogo.jpeg" alt="">
+
+                                </div>
+                                <div class="vit_text">
+                                    <h4>MIT Manipal-Manipal Institute Of Technology </h4>
+                                    <p>Manipal,Karnataka</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="topcollege_content">
+                            <div class="top_details">
+                                <div class="top_fee">
+                                    <h5>M.Tech/PGDM</h5>
+                                    <p>24.50 Lacs Total Fees</p>
+                                </div>
+                                <div class="top_rating">
+                                    <div id="rating_icon">
+                                        <img src="././assests/star.png" alt="">
+                                    </div>
+                                    <p>4.5/5</p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>View All Courses And Fees</h5>
+
+                                </div>
+                                <div class="top_rating">
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>Download Broucher</h5>
+
+                                </div>
+                                <div class="top_rating">
+
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+                    </article>
+
+                    <!-- seventh college item -->
+                    <article class="card__article swiper-slide topcollege_item">
+                        <div class="topcollege_img">
+                            <img src="././assests/birla.jpg" alt="">
+                            <div class="topcollege_overlay">
+                                <div class="vit_logo">
+                                    <img src="././assests/birlalogo.png" alt="">
+
+                                </div>
+                                <div class="vit_text">
+                                    <h4>BITS Pillani-Birla Institute of Technology & Science</h4>
+                                    <p>Mansr,Ranchi</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="topcollege_content">
+                            <div class="top_details">
+                                <div class="top_fee">
+                                    <h5>M.Tech/PGDM</h5>
+                                    <p>24.50 Lacs Total Fees</p>
+                                </div>
+                                <div class="top_rating">
+                                    <div id="rating_icon">
+                                        <img src="././assests/star.png" alt="">
+                                    </div>
+                                    <p>4.5/5</p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>View All Courses And Fees</h5>
+
+                                </div>
+                                <div class="top_rating">
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>Download Broucher</h5>
+
+                                </div>
+                                <div class="top_rating">
+
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+
+                    </article>
+
+                    <!-- eight college item -->
+                    <article class="card__article swiper-slide topcollege_item">
+                        <div class="topcollege_img">
+                            <img src="././assests/lpu.jpeg" alt="">
+                            <div class="topcollege_overlay">
+                                <div class="vit_logo">
+                                    <img src="././assests/lpulogo.png" alt="">
+
+                                </div>
+                                <div class="vit_text">
+                                    <h4>LPU Chandigarh-Lovely Proffesional University</h4>
+                                    <p>Chandigarh,Punjab</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="topcollege_content">
+                            <div class="top_details">
+                                <div class="top_fee">
+                                    <h5>M.Tech/PGDM</h5>
+                                    <p>24.50 Lacs Total Fees</p>
+                                </div>
+                                <div class="top_rating">
+                                    <div id="rating_icon">
+                                        <img src="././assests/star.png" alt="">
+                                    </div>
+                                    <p>4.5/5</p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>View All Courses And Fees</h5>
+
+                                </div>
+                                <div class="top_rating">
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>Download Broucher</h5>
+
+                                </div>
+                                <div class="top_rating">
+
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+                    </article>
+
+                    <!-- ninth college item -->
+                    <article class="card__article swiper-slide topcollege_item">
+                        <div class="topcollege_img">
+                            <img src="././assests/ip.jpeg" alt="">
+                            <div class="topcollege_overlay">
+                                <div class="vit_logo">
+                                    <img src="././assests/iplogo.png" alt="">
+
+                                </div>
+                                <div class="vit_text">
+                                    <h4>IPU Delhi-Guru Gobind Singh Indraprastha University</h4>
+                                    <p>Delhi,Delhi Ncr</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="topcollege_content">
+                            <div class="top_details">
+                                <div class="top_fee">
+                                    <h5>M.Tech/PGDM</h5>
+                                    <p>24.50 Lacs Total Fees</p>
+                                </div>
+                                <div class="top_rating">
+                                    <div id="rating_icon">
+                                        <img src="././assests/star.png" alt="">
+                                    </div>
+                                    <p>4.5/5</p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>View All Courses And Fees</h5>
+
+                                </div>
+                                <div class="top_rating">
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>Download Broucher</h5>
+
+                                </div>
+                                <div class="top_rating">
+
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+                    </article>
+
+
+                    <!-- fifith college item -->
+                    <article class="card__article swiper-slide topcollege_item">
+                        <div class="topcollege_img">
+                            <img src="././assests/amity.jpg" alt="">
+                            <div class="topcollege_overlay">
+                                <div class="vit_logo">
+                                    <img src="././assests/amitylogo.png" alt="">
+
+                                </div>
+                                <div class="vit_text">
+                                    <h4>Amity Noida-Amity University</h4>
+                                    <p>Noida,Uttar Pardesh</p>
+
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="topcollege_content">
+                            <div class="top_details">
+                                <div class="top_fee">
+                                    <h5>M.Tech/PGDM</h5>
+                                    <p>24.50 Lacs Total Fees</p>
+                                </div>
+                                <div class="top_rating">
+                                    <div id="rating_icon">
+                                        <img src="././assests/star.png" alt="">
+                                    </div>
+                                    <p>4.5/5</p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>View All Courses And Fees</h5>
+
+                                </div>
+                                <div class="top_rating">
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+                            <div class="top_details" id="top_details">
+                                <div class="top_fee">
+                                    <h5>Download Broucher</h5>
+
+                                </div>
+                                <div class="top_rating">
+
+                                    <p><i class="ri-arrow-right-s-line"></i></p>
+                                </div>
+
+                            </div>
+
+
+
+
+
+
+                        </div>
+
+
+                    </article>
+                </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <div class="swiper-button-next swiper-button-next3">
+                <i class="ri-arrow-right-s-line"></i>
+            </div>
+
+            <div class="swiper-button-prev swiper-button-prev3">
+                <i class="ri-arrow-left-s-line"></i>
+            </div>
+
+            <!-- Pagination -->
+            <div class="swiper-pagination swiper-pagination3"></div>
+        </div>
+    </section>
+
+
+
+
+    <!-- college table -->
+
+    <section class="table_section">
+        <div class="table_heading">
+            <h1>Top 10 Colleges</h1>
+            <div class="table_seprator"></div>
+            <div class="table_list">
+                <table class="table_1">
+                    <tr>
+                        <th>Rank</th>
+                        <th> College</th>
+                        <th>Ranking</th>
+                        <th> Cutoff</th>
+                        <th>Application Deadline</th>
+                        <th>Fees</th>
+                    </tr>
+                    <a href="">
+                        <tr>
+                            <td>#1</td>
+                            <a href="./table.html">
+                                <td> <img
+                                        src="https://image-static.collegedunia.com/public/college_data/images/logos/1434977143jpjpjpjpj.jpg?h=30&w=30&mode=stretch"
+                                        alt="">
+                                    <b>VIT Banglore-Vellore Institute Of Technology</b>
+                                    <p>Banglore,Karnataka</p>
+                                </td>
+                            </a>
+
+
+                            <td><img src="https://image-static.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=20&w=39.2&mode=stretch"
+                                    alt=""> <b>#1</b> out of 200 in India 2024</td>
+
+                            <td>JEE-Advanced 2024 Cut off 419</td>
+                            <td>27 Apr - 18 Jun 2024</td>
+                            <td> <b>₹2,42,000</b> <br>
+                                1st Year Fees</td>
+                        </tr>
+                    </a>
+                    <tr>
+
+                        <td>#2</td>
+                        <a href="./table.html">
+                            <td> <img
+                                    src="https://image-static.collegedunia.com/public/college_data/images/logos/1489041138e2.jpg?h=30&w=30&mode=stretch"
+                                    alt=""> <b>logo
+                                    IIT Kharagpur - Indian Institute of ve <br> Technology - [IITKGP]</b> <br>
+                                Kharagpur,West Bengal|4.9/5
+                                Chennai,Tamil Nadu|5/5
+                            </td>
+                        </a>
+
+
+                        <td><img src="https://image-static.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=20&w=39.2&mode=stretch"
+                                alt=""> <b>#1</b> out of 200 in India 2024</td>
+
+                        <td>JEE-Advanced 2024 Cut off 419</td>
+                        <td>27 Apr - 18 Jun 2024</td>
+                        <td> <b>₹2,42,000</b> <br>
+                            1st Year Fees</td>
+                    </tr>
+                    <tr>
+                        <td>#3</td>
+                        <td> <img
+                                src="https://image-static.collegedunia.com/public/college_data/images/logos/1434977143jpjpjpjpj.jpg?h=30&w=30&mode=stretch"
+                                alt=""> <b>IIT Madras - Indian Institute of Technology - [IITM]</b> <br>
+                            Chennai,Tamil Nadu|5/5
+                        </td>
+                        <td><img src="https://image-static.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=20&w=39.2&mode=stretch"
+                                alt=""> <b>#1</b> out of 200 in India 2024</td>
+
+                        <td>JEE-Advanced 2024 Cut off 419</td>
+                        <td>27 Apr - 18 Jun 2024</td>
+                        <td> <b>₹2,42,000</b> <br>
+                            1st Year Fees</td>
+                    </tr>
+                    <tr>
+                        <td>#4</td>
+                        <td> <img
+                                src="https://image-static.collegedunia.com/public/college_data/images/logos/1434977143jpjpjpjpj.jpg?h=30&w=30&mode=stretch"
+                                alt=""> <b>IIT Madras - Indian Institute of Technology - [IITM]</b> <br>
+                            Chennai,Tamil Nadu|5/5
+                        </td>
+                        <td><img src="https://image-static.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=20&w=39.2&mode=stretch"
+                                alt=""> <b>#1</b> out of 200 in India 2024</td>
+
+                        <td>JEE-Advanced 2024 Cut off 419</td>
+                        <td>27 Apr - 18 Jun 2024</td>
+                        <td> <b>₹2,42,000</b> <br>
+                            1st Year Fees</td>
+                    </tr>
+                    <tr>
+                        <td>#5</td>
+                        <td> <img
+                                src="https://image-static.collegedunia.com/public/college_data/images/logos/1434977143jpjpjpjpj.jpg?h=30&w=30&mode=stretch"
+                                alt=""> <b>IIT Madras - Indian Institute of Technology - [IITM]</b> <br>
+                            Chennai,Tamil Nadu|5/5
+                        </td>
+                        <td><img src="https://image-static.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=20&w=39.2&mode=stretch"
+                                alt=""> <b>#1</b> out of 200 in India 2024</td>
+
+                        <td>JEE-Advanced 2024 Cut off 419</td>
+                        <td>27 Apr - 18 Jun 2024</td>
+                        <td> <b>₹2,42,000</b> <br>
+                            1st Year Fees</td>
+                    </tr>
+                    <td>#6</td>
+                    <td> <img
+                            src="https://image-static.collegedunia.com/public/college_data/images/logos/1434977143jpjpjpjpj.jpg?h=30&w=30&mode=stretch"
+                            alt=""> <b>IIT Madras - Indian Institute of Technology - [IITM]</b> <br>
+                        Chennai,Tamil Nadu|5/5
+                    </td>
+                    <td><img src="https://image-static.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=20&w=39.2&mode=stretch"
+                            alt=""> <b>#1</b> out of 200 in India 2024</td>
+
+                    <td>JEE-Advanced 2024 Cut off 419</td>
+                    <td>27 Apr - 18 Jun 2024</td>
+                    <td> <b>₹2,42,000</b> <br>
+                        1st Year Fees</td>
+                    </tr>
+
+                    <tr>
+                        <td>#7</td>
+                        <td> <img
+                                src="https://image-static.collegedunia.com/public/college_data/images/logos/1434977143jpjpjpjpj.jpg?h=30&w=30&mode=stretch"
+                                alt=""> <b>IIT Madras - Indian Institute of Technology - [IITM]</b> <br>
+                            Chennai,Tamil Nadu|5/5
+                        </td>
+                        <td><img src="https://image-static.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=20&w=39.2&mode=stretch"
+                                alt=""> <b>#1</b> out of 200 in India 2024</td>
+
+                        <td>JEE-Advanced 2024 Cut off 419</td>
+                        <td>27 Apr - 18 Jun 2024</td>
+                        <td> <b>₹2,42,000</b> <br>
+                            1st Year Fees</td>
+                    </tr>
+
+                    <tr>
+                        <td>#8</td>
+                        <td> <img
+                                src="https://image-static.collegedunia.com/public/college_data/images/logos/1434977143jpjpjpjpj.jpg?h=30&w=30&mode=stretch"
+                                alt=""> <b>IIT Madras - Indian Institute of Technology - [IITM]</b> <br>
+                            Chennai,Tamil Nadu|5/5
+                        </td>
+                        <td><img src="https://image-static.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=20&w=39.2&mode=stretch"
+                                alt=""> <b>#1</b> out of 200 in India 2024</td>
+
+                        <td>JEE-Advanced 2024 Cut off 419</td>
+                        <td>27 Apr - 18 Jun 2024</td>
+                        <td> <b>₹2,42,000</b> <br>
+                            1st Year Fees</td>
+                    </tr>
+
+                    <tr>
+                        <td>#9</td>
+                        <td> <img
+                                src="https://image-static.collegedunia.com/public/college_data/images/logos/1434977143jpjpjpjpj.jpg?h=30&w=30&mode=stretch"
+                                alt=""> <b>IIT Madras - Indian Institute of Technology - [IITM]</b> <br>
+                            Chennai,Tamil Nadu|5/5
+                        </td>
+                        <td><img src="https://image-static.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=20&w=39.2&mode=stretch"
+                                alt=""> <b>#1</b> out of 200 in India 2024</td>
+
+                        <td>JEE-Advanced 2024 Cut off 419</td>
+                        <td>27 Apr - 18 Jun 2024</td>
+                        <td> <b>₹2,42,000</b> <br>
+                            1st Year Fees</td>
+                    </tr>
+
+                    <tr>
+                        <td>#10</td>
+                        <td> <img
+                                src="https://image-static.collegedunia.com/public/college_data/images/logos/1434977143jpjpjpjpj.jpg?h=30&w=30&mode=stretch"
+                                alt=""> <b>IVIT Banglore-Vellore Institute Of Technology</b> <br>
+                            Chennai,Tamil Nadu|5/5
+                        </td>
+                        <td><img src="https://image-static.collegedunia.com/public/college_data/images/agencyLogo/nirf1569843987.png?h=20&w=39.2&mode=stretch"
+                                alt=""> <b>#1</b> out of 200 in India 2024</td>
+
+                        <td>JEE-Advanced 2024 Cut off 419</td>
+                        <td>27 Apr - 18 Jun 2024</td>
+                        <td> <b>₹2,42,000</b> <br>
+                            1st Year Fees</td>
+                    </tr>
+
+
+                </table>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- colleges according to places -->
+    <section class="location_colleges">
+        <div class="location_heading">
+            <h1>Top Study Places For B.Tech/M.Tech</h1>
+            <div class="location_seprator"></div>
+            <div class="container">
+                <div class="location_lists">
+                    <!-- logo size 400*200 -->
+                    <div class="location_item">
+                        <div class="location_img">
+                            <img src="https://images.collegedunia.com/public/asset/icons/city-state-icons/New%20Delhi.svg?mode=stretch"
+                                alt="">
+                        </div>
+                        <h4>Delhi NCR</h4>
+                    </div>
+                    <div class="location_item">
+                        <div class="location_img">
+                            <img src="https://images.collegedunia.com/public/asset/icons/city-state-icons/Bangalore.svg?mode=stretch"
+                                alt="">
+                        </div>
+                        <h4>Banglore</h4>
+                    </div>
+
+                    <div class="location_item">
+                        <div class="location_img">
+                            <img src="https://images.collegedunia.com/public/asset/icons/city-state-icons/Pune.svg?mode=stretch"
+                                alt="">
+                        </div>
+                        <h4 class="pune">Pune</h4>
+                    </div>
+
+
+                    <div class="location_item">
+                        <div class="location_img">
+                            <img src="https://images.collegedunia.com/public/asset/icons/city-state-icons/Mumbai.svg?mode=stretch"
+                                alt="">
+                        </div>
+                        <h4>Mumbai</h4>
+                    </div>
+                    <div class="location_item">
+                        <div class="location_img">
+                            <img src="https://images.collegedunia.com/public/asset/icons/city-state-icons/Hyderabad.svg?mode=stretch"
+                                alt="">
+                        </div>
+                        <h4>Hyderabad</h4>
+                    </div>
+
+                    <div class="location_item">
+                        <div class="location_img">
+                            <img src="	https://images.collegedunia.com/public/asset/icons/city-state-icons/Chennai.svg?mode=stretch"
+                                alt="">
+                        </div>
+                        <h4>Chennai</h4>
+                    </div>
+
+
+                    <div class="location_item">
+                        <div class="location_img">
+                            <img src="https://images.collegedunia.com/public/asset/icons/city-state-icons/Kolkata.svg?mode=stretch"
+                                alt="">
+                        </div>
+                        <h4>Kolkata</h4>
+                    </div>
+
+                    <div class="location_item">
+                        <div class="location_img">
+                            <img src="https://images.collegedunia.com/public/asset/icons/city-state-icons/Indore.svg?mode=stretch"
+                                alt="">
+                        </div>
+                        <h4>Indore</h4>
+                    </div>
+
+
+                    <div class="location_item">
+                        <div class="location_img">
+                            <img src="	https://images.collegedunia.com/public/asset/icons/city-state-icons/Ahmedabad.svg?mode=stretch"
+                                alt="">
+                        </div>
+                        <h4 class="ahemd">Ahemdabad</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- footer section -->
+    <section class="footer_section">
+        <div class="footer_list">
+            <div class="footeritem">
+                <h3>Top Colleges</h3>
+                <div class="footeritem_list1">
+                    <a href="">B.Tech/BE</a>
+                    <a href="">M.Tech</a>
+                    <a href="">BCA</a>
+                    <a href="">MCA</a>
+                    <a href="">MBA</a>
+                </div>
+
+            </div>
+
+            <div class="footeritem">
+                <h3>Top Universities</h3>
+                <div class="footeritem_list1">
+                    <a href="">Engineering </a>
+                    <a href="">Managment</a>
+                    <a href="">Science</a>
+                    <a href="">Commerce</a>
+                    <a href="">Diploma</a>
+                </div>
+
+            </div>
+
+            <div class="footeritem">
+                <h3>Top Exams</h3>
+                <div class="footeritem_list1">
+                    <a href="">Jee Main</a>
+                    <a href="">Gate</a>
+                    <a href="">CAT</a>
+                    <a href="">MAT</a>
+                    <a href="">NEET</a>
+                </div>
+
+            </div>
+
+            <div class="footeritem">
+                <h3>Top Places</h3>
+                <div class="footeritem_list1">
+                    <a href="">Banglore</a>
+                    <a href="">Delhi NCR</a>
+                    <a href="">Hyderabad</a>
+                    <a href="">Gurgaon</a>
+                    <a href="">Pune</a>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="other_links">
+            <h4>Other Links</h4>
+            <div class="social_links">
+                <div>
+                    <a href="./index.html">Home</a>
+                    <a href="./collegeinfo.html">About</a>
+                    <a href="">Contact</a>
+                    <a href="">Login</a>
+
+                </div>
+                <div class="social-link">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--=============== icon video JS ===============-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--=============== SWIPER JS ===============-->
+    <script src="./../collegedheko/js/slider/swiper-bundle.min.js"></script>
+    <!--=============== slider ===============-->
+    <script src="./../collegedheko/js/slider/main.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="./index.js"></script>
+
+    <!-- slider 1  -->
+    <!-- <script src="./assets/js/slider.js"></script> -->
+
+    <!--=============== jquery ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.location_lists').slick({
+                slidesToShow: 7,
+                slidesToScroll: 1,
+                dots: true,
+                arrows: true,
+                autoplay: true,
+                // autoplaySpeed: 2000,
+                // autoplaySpeed:true,
+                Infinity: true,
+                responsive: [
+                    {
+                        breakpoint: 991,
+                        settings: {
+                            slidesToShow: 4,
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 2,
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

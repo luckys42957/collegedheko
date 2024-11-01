@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!---Coding By CodingLab | www.codinglabweb.com--->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!--<title>Registration Form in HTML CSS</title>-->
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="././styles/register.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <section class="container">
+      <header>Registration Form</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email" required />
+        </div>
+        <div class="input-box">
+          <label>Password</label>
+          <input type="password" placeholder="Enter your password" required />
+        </div>
+       
+        <div class="gender-box">
+          <h3>Usertype</h3>
+          <div class="gender-option">
+            <div class="gender">
+              <input type="radio" id="check-male" name="usertype" checked />
+              <label for="check-male">College</label>
+            </div>
+            <div class="gender">
+              <input type="radio" id="check-female" name="usertype" />
+              <label for="check-female">Student</label>
+            </div>
+           
+          </div>
+        </div>
+
+        <div class="alreday-account" style="margin-top: 10px;">
+            <span style="display: flex; gap: 10px;">Already have an account ? <a style="text-decoration: none; color: #025bee;" href="./login.html">Login here</a></span>
+        </div>
+       
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
